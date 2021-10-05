@@ -1,0 +1,51 @@
+﻿Bài 1: Tim gia tri lon nhat cua 2 so tu nhien a va b nhap tu ban phim
+
+
+BEGIN
+INPUT a,b
+IF a = b THEN
+    PRINT "Gia tri lon nhat la a hoac b"
+ELSE
+    IF a>b THEN
+       PRINT "Gia tri lon nhat la a"
+    ELSE
+       PRINT "Gia tri lon nhat la b"
+    END IF
+END IF
+END
+
+
+
+Bài 2: Tim phuong trinh bac 2: ax^2 + bx + c = 0
+
+
+BEGIN 
+INPUT a,b,c, delta = b^2 - 4ac
+IF a = 0
+   IF b = 0 THEN
+      IF c = 0 THEN
+      	PRINT "Phuong trinh vo so nghiem"
+      ELSE 
+      	PRINT "Phuong trinh vo nghiem"
+      END IF
+   ELSE
+   PRINT "Phuong trinh co nghiem -c/b"
+   END IF
+ESLE 
+   IF delta = 0 THEN
+   	PRINT "Phuong trinh co nghiem kep x1 = x2 = -b/2a"
+   IFEL delta > 0 THEN
+   	PRINT "Phuong trinh co 2 nghiem phan biet x1 = (-b + √delta)/2a; x2 = (b +√delta)/2a
+   IF delta < 0 THEN
+   	PRINT "Phuong trinh vo nghiem"
+   END IF
+END IF
+END
+
+
+
+
+Bài 3: Kiem tra 3 canh a,b,c la tam giac thuong, vuong, can hay tam giac deu
+
+
+BEGIN
